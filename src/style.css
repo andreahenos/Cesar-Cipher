@@ -1,0 +1,226 @@
+body{
+    background-color: rgb(250, 238, 222);
+    margin: 0%;
+}
+/* ---------------------------------------------- */
+#mainHeader{
+    position: fixed;
+}
+header{
+    background-color: rgb(0, 63, 99);
+    width: 100%;
+    height: 10em;
+    display: flex;
+}
+header > h1{
+    /* background-color:palegreen; */
+    text-align: left;
+    color: rgb(248, 176, 79);
+    font-size: 3.8em;
+    padding: 0.4em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* ---------------------------------------------- */
+nav{
+    background-color: rgb(248, 176, 79);
+    display: flex;
+    width: auto;
+    height: 3em;
+}
+.navItem{
+    /* background-color:palegreen; */
+    display: inline-block;
+    width: 5em;
+    height: 1.2em;
+    padding: 0.9em;
+    margin-right: 0.8em;
+    margin-left: 0.8em;
+    text-align: center;
+}
+#firstOpt{
+    width: 2.6em;
+    height: 1.2em;
+    vertical-align: middle;
+}
+/* ---------------------------------------------- */
+#Inicio{
+    padding: 1em;
+    margin: 2em;
+    /* background-color: blue; */
+    width: auto;
+    height: auto;
+    color: rgb(0, 63, 99);
+}
+#descript > h2{
+    /* background-color:palegreen; */
+    font-size: 1.8em;
+}
+#descript > p {
+    /* background-color:palegreen; */
+    padding: 1em;
+}
+#characters{
+    /* background-color:palegreen; */
+    display: flex;
+    padding: 0,5em;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+.char{
+    text-align: center;
+    display: inline-block;
+    background-color:rgb(250, 225, 191);
+    width: 10em;
+    height: 12em;
+    padding: 1em;
+    margin: 1em;
+}
+/* ---------------------------------------------- */
+#CómoUsar{
+    padding: 1em;
+    margin: 2em;
+    /* background-color: blue; */
+    width: auto;
+    height: auto;
+    color: rgb(0, 63, 99);
+}
+#CómoUsar > h2{
+    /* background-color:palegreen; */
+    font-size: 1.8em;
+}
+#CómoUsar > p{
+    /* background-color:palegreen; */
+    padding: 1em;
+}
+#steps{
+    /* background-color:palegreen; */
+    display: flex;
+    padding: 0.5em;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+.stp{
+    text-align: center;
+    display: inline-block;
+    background-color:rgb(250, 225, 191);
+    width: 14em;
+    height: 14em;
+    padding: 1em;
+    margin: 1em;
+}
+/* ---------------------------------------------- */
+#Comenzar{
+    padding: 1em;
+    margin: 2em;
+    /* background-color: blue; */
+    width: auto;
+    height: auto;
+    color: rgb(0, 63, 99);
+}
+#Comenzar > h2{
+    /* background-color:palegreen; */
+    font-size: 1.8em;
+}
+#comOffset{
+    display: flex;
+    width: 27em;
+    height: 2.5em;
+    align-items: center;
+    background-color: rgb(248, 176, 79);
+}
+#comOffset > p{
+    /* background-color:palegreen; */
+    margin-left: 0.5em;
+}
+#comOffset > input{
+    text-align: center;
+    width: 12em;
+    height: 2em;
+    margin: 0.7em;
+    background-color:rgb(250, 225, 191);
+    border: none;
+}
+#inpText{
+    /* background-color:palegreen; */
+    display: flex;
+    margin: 2em 0em 2em 0em;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+.input{
+    width: 30em;
+    height: 20em;
+    border: none;
+    background-color:rgb(250, 225, 191);
+    margin: 0.5em 3em 0.5em 3em;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+#groupBtn1{
+    /* background-color:palegreen; */
+    padding: 0.3em;
+    margin-right: 7em;
+}
+#groupBtn2{
+    /* background-color:palegreen; */
+    padding: 0.3em;
+    margin-left: 7em;
+}   
+.btn{
+    background-color: rgb(248, 176, 79);
+    border: none;
+    width: 6em;
+    height: 2.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+/* ---------------------------------------------- */
+#Contacto{
+    padding: 1em;
+    margin: 2em;
+    /* background-color: blue; */
+    width: auto;
+    height: auto;
+    color: rgb(0, 63, 99);
+}
+#Contacto > h2{
+    /* background-color:palegreen; */
+    font-size: 1.8em;
+}
+#inf{
+    /* background-color:palegreen; */
+    display: flex;
+    padding: 0,5em;
+    width: 20em;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(250, 225, 191);
+}
+#inf > p{
+    /* background-color:palegreen; */
+    padding: 1em;
+    margin-left: 7em;
+}
+/* ---------------------------------------------- */
+footer{
+    background-color: rgb(0, 63, 99);
+    display: flex;
+    width: auto;
+    height: auto;
+}
+#footerCont{
+/*     justify-content: right;
+    text-align: right; */
+    display: inline-flex;
+    /* background-color:palegreen; */
+    margin-left: 73em;
+    color: rgb(248, 176, 79); 
+}
+

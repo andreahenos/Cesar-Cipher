@@ -2,13 +2,126 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta name="viewport" content="width=device-width"> 
+    <title>Be.you</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+  </head>   
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
     <script src="index.js" type="module"></script>
+
+    
+    <header>
+       <img src=#/>
+       <h1>Be.you</h1>
+    </header>
+
+    <nav> 
+        <div class="navItem" id="firstOpt"><a href="#Inicio">Inicio</a></div>
+        <div class="navItem"><a href="#CómoUsar">Cómo usar</a></div>
+        <div class="navItem"><a href="#Comenzar">Comenzar</a></div>
+        <div class="navItem"><a href="#Contacto">Contacto</a></div>
+     </nav>
+  
+
+    <section id="Inicio">
+      <article id="descript">
+       <br><h2>Acerca de Be.you</h2><br>
+         <p>Be.you es una aplicación web para 
+           cifrar y descrifrar rápidamente textos digitales de caracter personal (tales como diarios personales, cuadernos de viaje, libreta de reflexiones, etc).
+           El método que se usa es el cifrado César, un tipo de cifrado por sustitución que reemplaza cada letra del texto original por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
+          </p>
+      </article><br><br>
+
+      <section id="characters">
+        <div class="char">
+         <img src=#/><br><br><br><br><br>
+         <h3>Bienestar</h3>
+           <p>Escribe libremente, sé usted mismo.</p> 
+        </div>
+
+        <div class="char">
+         <img src=#/><br><br><br><br><br>
+         <h3>Privado</h3>
+           <p>Tus textos son solo suyos.</p>
+        </div>
+
+        <div class="char">
+         <img src=#/><br><br><br><br><br>
+         <h3>Fácil de usar</h3>
+           <p>Funcionamiento práctico y rápido.</p>
+          </div>
+        </section><br><br>
+    </section>
+
+    <article id="CómoUsar">
+        <br><h2>Cómo funciona Be.you</h2><br>
+        <p>Para cifrar o descifrar tu texto sigue estos pasos:</p><br><br>
+       <section id="steps">
+         <div class="stp">
+           <h3>Paso 1</h3>
+           <p>Ingresa el dezplazamiento que quieras usar.</p>
+           <img src=#/>
+         </div>
+
+        <div class="stp">
+           <h3>Paso 2</h3>
+           <p>Escribe el texto que quieras cifrar o descifrar.</p>
+           <img src=#/>
+        </div>
+
+        <div class="stp">
+           <h3>Paso 3</h3>
+           <p>Presiona el botón de la acción que quieres que realice.</p>
+            <img src=#/>
+        </div>
+
+        <div class="stp">  
+           <h3>Paso 4</h3>
+           <p>Copia el texto, intercambialo o borralo.</p>
+           <img src=#/>
+          </div><br>
+          </section><br><br>
+      </article>
+
+    <main id="Comenzar">
+      <br><h2>Comenzar</h2><br>
+
+      <section id="comOffset">
+       <p>Ingresa el valor del desplazamiento:</p>
+       <input type="number" id="inputOffset" placeholder="Escribe un número">
+      </section>
+  
+      <section id="inpText">
+        <input type="text" class="input" id="inputText" placeholder="Escrite tu texto">
+        <input type="text" class="input" id="outputText" placeholder="Resultado">
+      </section>
+      
+      <section id="buttons">
+       <section id="groupBtn1">
+         <input type="button" class="btn" id="encodeButton" value="Cifrar">
+         <input type="button" class="btn" id="decodeButton" value="Descrifrar">
+       </section>
+
+      <section id="groupBtn2">
+         <input type="button"  class="btn"  id="copyButton"  value="Copiar">
+         <input type="button" class="btn"  id="eraseButton"   value="Borrar">
+       </section>
+      </section>
+      <br><br><br>
+    </main>
+
+    <section id="Contacto">
+      <br><h2>Contáctanos</h2><br>
+      <div id="inf">
+       <img src=#/>
+       <p>be.you@gmail.com</p>
+     </div>
+    </section>
+
+    <footer>
+      <div id="footerCont">
+      <img src=#/>
+      <p>Be.you<p>
+      </div>
   </body>
 </html>

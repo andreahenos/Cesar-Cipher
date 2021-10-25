@@ -59,7 +59,9 @@ Basandose en la psicología del color en diseño, para la aplicación web se con
 
 
 ### Prototipados
-
+![Primer prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/Pictures/Colores.png)
+![Segundo prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/Pictures/Colores.png)
+![Tercer prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/Pictures/Colores.png)
 
 
 

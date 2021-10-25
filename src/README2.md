@@ -54,9 +54,9 @@ Basandose en la psicología del color en diseño, para la aplicación web se con
 * Inspirar sobre todo confianza, seguridad y empatía para que puedan escribir sin limitaciones ni temor, para lo cual se usó el color azul oscuro y el celeste.
 * También se usó un anaranjado amarillento para transmitir optimismo, calidez y apertura pensando en situaciones en las que lo que tenga o quiera escribir el usuario sea sobre vivencias complicadas.
 
-<p text-align="center">
+
 ![Prueba de colores](https://github.com/andreahenos/Cesar-Cipher/blob/main/Pictures/Colores.png)
-</p>
+
 
 ### Prototipados
 

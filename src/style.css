@@ -157,6 +157,7 @@ nav{
     border: none;
     background-color:rgb(250, 225, 191);
     margin: 0.5em 3em 0.5em 3em;
+    resize:none;
 }
 #buttons{
     display: flex;

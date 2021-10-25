@@ -3,16 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width"> 
-    <title>Be.you</title>
+    <title>Mósy's Lamp</title>
     <link rel="stylesheet" href="style.css" />
   </head>   
   <body>
     <script src="index.js" type="module"></script>
 
-    
     <header>
-       <img src=#/>
-       <h1>Be.you</h1>
+       <!-- <img src=#/> -->
+       <h1>Mósy's Lamp</h1>
     </header>
 
     <nav> 
@@ -25,62 +24,67 @@
 
     <section id="Inicio">
       <article id="descript">
-       <br><h2>Acerca de Be.you</h2><br>
-         <p>Be.you es una aplicación web para 
+         <p>Mósy's Lamp es una aplicación web para 
            cifrar y descrifrar rápidamente textos digitales de caracter personal (tales como diarios personales, cuadernos de viaje, libreta de reflexiones, etc).
            El método que se usa es el cifrado César, un tipo de cifrado por sustitución que reemplaza cada letra del texto original por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
-          </p>
+         </p>
       </article><br><br>
 
       <section id="characters">
         <div class="char">
-         <img src=#/><br><br><br><br><br>
+         <!-- <img src=#/><br><br><br><br><br> -->
          <h3>Bienestar</h3>
-           <p>Escribe libremente, sé usted mismo.</p> 
+           <p>Sé tú mismo y disfruta de los beneficios de escribir sobre tus pensamientos o sentimientos.</p> 
         </div>
 
         <div class="char">
-         <img src=#/><br><br><br><br><br>
-         <h3>Privado</h3>
-           <p>Tus textos son solo suyos.</p>
+         <!-- <img src=#/><br><br><br><br><br> -->
+         <h3>Seguridad</h3>
+           <p>Tus textos son sólo suyos. Protegemos tu privacidad para que puedas escribir libremente.</p>
         </div>
 
         <div class="char">
-         <img src=#/><br><br><br><br><br>
-         <h3>Fácil de usar</h3>
-           <p>Funcionamiento práctico y rápido.</p>
-          </div>
-        </section><br><br>
+         <!-- <img src=#/><br><br><br><br><br> -->
+         <h3>Pro-planeta</h3>
+           <p>Incentivamos el uso de diarios digitales para ahorra papel y aportar al cuidado del medio ambiente.</p>
+        </div>
+        
+        <div class="char">
+         <!-- <img src=#/><br><br><br><br><br> -->
+         <h3>Recuerda</h3>
+           <p>Queremos que puedas capturar momentos importantes para tí de forma honesta, pero además sencilla.</p>
+        </div>
+      </section><br><br>
     </section>
 
     <article id="CómoUsar">
-        <br><h2>Cómo funciona Be.you</h2><br>
+        <br><h2>Cómo funciona</h2><br>
         <p>Para cifrar o descifrar tu texto sigue estos pasos:</p><br><br>
        <section id="steps">
          <div class="stp">
            <h3>Paso 1</h3>
            <p>Ingresa el dezplazamiento que quieras usar.</p>
-           <img src=#/>
+           <!-- <img src=#/> -->
          </div>
 
-        <div class="stp">
+         <div class="stp">
            <h3>Paso 2</h3>
            <p>Escribe el texto que quieras cifrar o descifrar.</p>
-           <img src=#/>
-        </div>
+           <!-- <img src=#/> -->
+         </div>
 
-        <div class="stp">
+         <div class="stp">
            <h3>Paso 3</h3>
            <p>Presiona el botón de la acción que quieres que realice.</p>
-            <img src=#/>
-        </div>
+            <!-- <img src=#/> -->
+         </div>
 
-        <div class="stp">  
+         <div class="stp">  
            <h3>Paso 4</h3>
            <p>Copia el texto, intercambialo o borralo.</p>
-           <img src=#/>
-          </div><br>
-          </section><br><br>
+           <!-- <img src=#/> -->
+         </div><br>
+        </section><br><br>
       </article>
 
     <main id="Comenzar">
@@ -88,12 +92,12 @@
 
       <section id="comOffset">
        <p>Ingresa el valor del desplazamiento:</p>
-       <input type="number" id="inputOffset" placeholder="Escribe un número">
+       <input type="number" id="inputOffset" placeholder="Escribe un número" min="0" pattern="^[0-9]+">
       </section>
   
       <section id="inpText">
-        <input type="text" class="input" id="inputText" placeholder="Escrite tu texto">
-        <input type="text" class="input" id="outputText" placeholder="Resultado">
+        <textarea class="input" id="inputText" placeholder="Escrite tu texto"></textarea>
+        <textarea class="input" id="outputText" placeholder="Resultado" readonly="readonly"></textarea>
       </section>
       
       <section id="buttons">
@@ -102,8 +106,8 @@
          <input type="button" class="btn" id="decodeButton" value="Descrifrar">
        </section>
 
-      <section id="groupBtn2">
-         <input type="button"  class="btn"  id="copyButton"  value="Copiar">
+       <section id="groupBtn2">
+         <input type="button"  class="btn"  id="changeButton"  value="Cambiar">
          <input type="button" class="btn"  id="eraseButton"   value="Borrar">
        </section>
       </section>
@@ -113,15 +117,16 @@
     <section id="Contacto">
       <br><h2>Contáctanos</h2><br>
       <div id="inf">
-       <img src=#/>
-       <p>be.you@gmail.com</p>
-     </div>
+       <!-- <img src=#/> -->
+       <p>mósyslamp@gmail.com</p>
+      </div>
     </section>
 
     <footer>
       <div id="footerCont">
-      <img src=#/>
-      <p>Be.you<p>
+       <!-- <img src=#/> -->
+       <p>Mósy's Lamp</p>
       </div>
+    </footer>
   </body>
 </html>

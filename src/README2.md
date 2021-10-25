@@ -44,15 +44,15 @@ Importante: Mósy's Lamp actualmente sólo cifra y descrifra textos en mayúcula
 
 ## Diseño
 
-### Nombre y logo
+### Nombre
 Mósy's Lamp traduce al español 'La Lámpara de Mósy', que hace referencia a la obra de Dante Gabril Rosseti llamada 'Lamp of Memory', también conocida como 'Mnemósine' o 'Recordanza'. 
 Menmósine es la diosa griega que en la mitología representaba a la memoria, más no se refiere sólo a la capacidad de recordar eventos pasados importantes, sino también al razonamiento y análisis del hecho para así prever y anticipar situaciones.
 
 
 ### Colores
 Basandose en la psicología del color en diseño, para la aplicación web se consideró:
-*Inspirar sobre todo confianza, seguridad y empatía para que puedan escribir sin limitaciones ni temor, para lo cual se usó el color azul oscuro y el celeste.
-*También se usó un anaranjado amarillento para transmitir optimismo, calidez y apertura pensando en situaciones en las que lo que tenga o quiera escribir el usuario sea sobre vivencias complicadas.
+* Inspirar sobre todo confianza, seguridad y empatía para que puedan escribir sin limitaciones ni temor, para lo cual se usó el color azul oscuro y el celeste.
+* También se usó un anaranjado amarillento para transmitir optimismo, calidez y apertura pensando en situaciones en las que lo que tenga o quiera escribir el usuario sea sobre vivencias complicadas.
 ![Prueba de colores](https://github.com/andreahenos/Cesar-Cipher/blob/main/Pictures/Colores.png)
 
 ### Prototipados
@@ -61,11 +61,11 @@ Basandose en la psicología del color en diseño, para la aplicación web se con
 
 
 ## Descarga
-*Hacer click en el botón FORK para crear una copia del repositorio y copiar el enlace HTTPS que aparece en el botón CODE.
-*Crear una carpeta nueva en su escritorio.
+* Hacer click en el botón FORK para crear una copia del repositorio y copiar el enlace HTTPS que aparece en el botón CODE.
+* Crear una carpeta nueva en su escritorio.
 En Git Bash:
-*Ubicar la carpeta en el directorio (Puede usar pwd, ls, ll y cd).
-*Escribir 'git clone' seguido de el enlace HTTPS que copió.
-*Luego, para instalar las dependencias ingrese el comando 'npm install'.
-*Si quiere ejecutar los test, escribir el comando 'npm run test'.
-*Usar 'npm run start' para ejecutar el archivo del servidor.
+* Ubicar la carpeta en el directorio (Puede usar pwd, ls, ll y cd).
+* Escribir 'git clone' seguido de el enlace HTTPS que copió.
+* Luego, para instalar las dependencias ingrese el comando 'npm install'.
+* Si quiere ejecutar los test, escribir el comando 'npm run test'.
+* Usar 'npm run start' para ejecutar el archivo del servidor.

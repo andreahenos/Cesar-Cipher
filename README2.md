@@ -65,14 +65,17 @@ Basandose en la psicología del color en diseño, para la aplicación web se con
 
 ### Prototipados
 Primer prototipo
+
 ![Primer prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/src/img/Prototipo%201.png)
 
 
 Segundo prototipo
+
 ![Segundo prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/src/img/Prototipo%202.png)
 
 
 Tercer prototipo
+
 ![Tercer prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/src/img/Prototipo%203.png)
 
 

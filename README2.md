@@ -4,6 +4,8 @@ Proyecto para cifrar o descifrar textos.
 ### Estado del proyecto
 En desarrollo.
 
+***
+
 ## Índice
 * [Introducción](#Introducción)
 * [Tecnologías](#Tecnologías)
@@ -11,6 +13,7 @@ En desarrollo.
 * [Diseño](#Diseño)
 * [Descarga](#Descarga)
 
+***
 
 ## Introducción
 Mósy's Lamp es una aplicación web diseñada para personas que cuenten con un diario personal digital y buscan asegurar su privacidad.
@@ -19,6 +22,7 @@ La medida de seguridad extra y práctica que brinda Mósys's Lamp está hecha co
 
 El proyecto fue creado como parte de un ejercicio para desarrollar habilidades técnicas de el Bootcamp de una organización llamada Laboratoria, la cual busca impulsar a mujeres para que comiencen una carrera en el sector tecnológico y así reducir la brecha de género.
 
+***
 
 ## Tecnologías
 El proyecto fue creado haciendo uso, principalmente, de:
@@ -30,6 +34,7 @@ El proyecto fue creado haciendo uso, principalmente, de:
 * EsLint
 * Jest
 
+***
 
 ## Funcionamiento
 Mósy's Lamp hace uso del código César, un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
@@ -40,7 +45,7 @@ El siguiente paso es ingresar el texto que se quiera cifrar o descifrar en el pr
 
 Importante: Mósy's Lamp actualmente sólo cifra y descrifra textos en mayúculas y no incluye signos de puntuación, caracteres especiales o números.
 
-
+***
 
 ## Diseño
 
@@ -59,17 +64,19 @@ Basandose en la psicología del color en diseño, para la aplicación web se con
 
 
 ### Prototipados
+Primer prototipo
 ![Primer prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/src/img/Prototipo%201.png)
 
 
-
+Segundo prototipo
 ![Segundo prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/src/img/Prototipo%202.png)
 
 
-
+Tercer prototipo
 ![Tercer prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/src/img/Prototipo%203.png)
 
 
+***
 
 ## Descarga
 * Hacer click en el botón FORK para crear una copia del repositorio y copiar el enlace HTTPS que aparece en el botón CODE.

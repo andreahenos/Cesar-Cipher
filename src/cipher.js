@@ -44,7 +44,7 @@ decode: (offset, str) => {
     }
     for(let position = 0; position<str.length; position++){
         let codeOfChar = str.charCodeAt(position);
-         //console.log(codeOfChar);
+         console.log(codeOfChar);
         if(codeOfChar>= 65 && codeOfChar<=90){
             let newPosition = (codeOfChar -65 +26 -(offset %26)) %26 +65;
             //console.log(newPosition);

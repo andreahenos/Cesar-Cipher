@@ -55,17 +55,19 @@ Basandose en la psicología del color en diseño, para la aplicación web se con
 * También se usó un anaranjado amarillento para transmitir optimismo, calidez y apertura pensando en situaciones en las que lo que tenga o quiera escribir el usuario sea sobre vivencias complicadas.
 
 
-![Prueba de colores](https://github.com/andreahenos/Cesar-Cipher/blob/main/Pictures/Colores.png)
+![Prueba de colores](https://github.com/andreahenos/Cesar-Cipher/blob/main/src/img/Prueba%20de%20colores.png)
 
 
 ### Prototipados
-![Primer prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/Pictures/Prototipo%201.png)
+![Primer prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/src/img/Prototipo%201.png)
 
 
-![Segundo prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/Pictures/Prototipo%202.png)
+
+![Segundo prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/src/img/Prototipo%202.png)
 
 
-![Tercer prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/Pictures/Prototipo%203.png)
+
+![Tercer prototipo](https://github.com/andreahenos/Cesar-Cipher/blob/main/src/img/Prototipo%203.png)
 
 
 
